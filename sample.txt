@@ -19,7 +19,7 @@ git status
 git add (file name) or git add .
 
 //commit --make timestamp and save it 
-git commit -m "added demo.txt file"
+git commit -m "added demo.txt"
 
 //config git for only time or while changing username and email
 git config --global user.name "username"
@@ -28,5 +28,9 @@ git config --global user.email "@gmail.com"
 //
 git config --list 
 
+//to see timestamp
+git log
 
-
+//to check in certain commit / timestamp
+//copy log commit 
+git checkout (commit id)

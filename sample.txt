@@ -1,0 +1,14 @@
+git --version
+bit.ly/github-texas
+$ cd Desktop/
+$ mkdir git
+$ cd git
+$ ls --to check the directory elements
+$ code .
+
+//in vs code
+//to tell git to track our work
+git init
+
+//make a file
+//

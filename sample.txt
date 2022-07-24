@@ -11,4 +11,22 @@ $ code .
 git init
 
 //make a file
+//to track our progress
+git status
+
+//git has staging area where files has to be add 
+//now to add file 
+git add (file name) or git add .
+
+//commit --make timestamp and save it 
+git commit -m "added demo.txt file"
+
+//config git for only time or while changing username and email
+git config --global user.name "username"
+git config --global user.email "@gmail.com"
+
 //
+git config --list 
+
+
+

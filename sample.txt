@@ -1,3 +1,5 @@
+https://wood-chartreuse-865.notion.site/A-hands-on-workshop-on-the-fundamentals-of-Git-and-GitHub-d6566256f5e04a6e9325d7209763b45d
+
 git --version
 bit.ly/github-texas
 $ cd Desktop/
@@ -34,3 +36,30 @@ git log
 //to check in certain commit / timestamp
 //copy log commit 
 git checkout (commit id)
+
+//go in github account
+//go to your repositories
+//Give repository name and description
+//public--everyone can view
+//private--for clients and company work
+//create repository
+
+//to link local and github
+//go to https and copy link
+//in project terminal 
+git remote add origin (link)
+
+//to go to main 
+git checkout main
+
+//to go to master
+git checkout master
+
+//to check if master or main
+git branch
+
+//to see links
+git remote -v
+
+//to push file 
+git push -u origin master 
